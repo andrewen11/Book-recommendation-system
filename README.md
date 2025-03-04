@@ -1,4 +1,5 @@
 # Book Recommendation System with Singular Value Decomposition (SVD)
+
 ### Warning: Before running the "ipynb" file, make sure you have uploaded the Books.csv (which is found in the compressed .gz archive) and Ratings.csv files.
 
 ### Overview:
@@ -19,9 +20,13 @@
 - Custom SVD Function: The function custom_svd() performs SVD on sparse matrices. It calculates the left singular vectors (U), singular values (S), and the transpose of the right singular vectors (Vt).
 It Uses eigen decomposition of the A^T * A matrix to extract singular values and vectors.
 - BookRecommender Class (based on some mean estimations and training models):
+  
     (1) Initialization - Setting up default values, including the number of "latent factors" (e.g., 20), and placeholders for datasets, mappings, and rating matrix.
+  
     (2) Data Loading (load_data) - Loading book metadata and user-book ratings from CSV files; cleaning and preparing the data for further processing.
+  
     (3) Matrix Preparation (prepare_matrix) - Constructing a sparse matrix where rows represent users and columns represent books, filtered based on minimum ratings for both users and books.
+  
     (4) Training (train_model): Matrix factorization using SVD, accounting for user and book biases; training the recommendation model.
 
 ### More in depth features:
@@ -30,8 +35,10 @@ It Uses eigen decomposition of the A^T * A matrix to extract singular values and
 - SVD Decomposition: The custom_svd function performs matrix decomposition, which is used in generating latent factors for users and books, enabling predictions for missing ratings.
 - Model Training: The model computes biases for users and books, centers the matrix by removing these biases, and applies matrix factorization (SVD) to build recommendations.
 
-* More details regarding the formulas and input / output instances are available in the PowerPoint presentation!
+* More details regarding the formulas and input / output data are available in the PowerPoint presentation!
   
 ### Purpose
 - Personalized Book Recommendations: This system can suggest books to users based on their previous ratings and preferences, along with those of similar users.
 - Collaborative Filtering: It leverages user and book interactions, uncovering latent relationships and patterns in the data to predict unknown ratings!
+
+## TEAM: Bălălău Andrei-Valentin & Lican Ștefan (Faculty of Automatic Control and Computer Science, National University of Science and Technology POLITEHNICA Bucharest, January 2025) 
