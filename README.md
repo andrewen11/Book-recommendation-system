@@ -41,4 +41,4 @@ It Uses eigen decomposition of the A^T * A matrix to extract singular values and
 - Personalized Book Recommendations: This system can suggest books to users based on their previous ratings and preferences, along with those of similar users.
 - Collaborative Filtering: It leverages user and book interactions, uncovering latent relationships and patterns in the data to predict unknown ratings!
 
-## TEAM: Bălălău Andrei-Valentin & Lican Ștefan (Faculty of Automatic Control and Computer Science, National University of Science and Technology POLITEHNICA Bucharest, January 2025) 
+### TEAM: Bălălău Andrei-Valentin & Lican Ștefan (Faculty of Automatic Control and Computer Science, National University of Science and Technology POLITEHNICA Bucharest, January 2025) 
